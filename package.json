@@ -1,0 +1,23 @@
+{
+  "name": "sortedset",
+  "version": "1.0.0",
+  "description": "a JS set which always stays sorted",
+  "main": "lib/sortedset.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/smurp/sortedset.git"
+  },
+  "author": "Shawn Murphy <smurp@smurp.com> (http://smurp.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smurp/sortedset/issues"
+  },
+  "homepage": "https://github.com/smurp/sortedset#readme"
+}
