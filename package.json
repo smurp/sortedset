@@ -1,23 +1,15 @@
 {
   "name": "sortedset",
   "version": "1.0.0",
-  "description": "a JS set which always stays sorted",
+  "type": "module",
+  "license": "CC-BY-SA-3.0",
+  "description": "A sorted set implementation in JavaScript",
   "main": "lib/sortedset.js",
-  "directories": {
-    "lib": "lib",
-    "test": "test"
-  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --recursive"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/smurp/sortedset.git"
-  },
-  "author": "Shawn Murphy <smurp@smurp.com> (http://smurp.com)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/smurp/sortedset/issues"
-  },
-  "homepage": "https://github.com/smurp/sortedset#readme"
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^10.2.0"
+  }
 }
